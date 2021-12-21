@@ -3,8 +3,12 @@ name: Test Kotlin App
 on: [push]
 
 jobs:
-  build:
-    runs-on: [ubuntu-latest, windows-latest, macos-latest]
+  test:
+    name: Test on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
 
     steps:
       - uses: actions/checkout@v2
