@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Daniele-Tentoni/gradle-wrapper-example/compare/1.0.0...1.1.0) (2021-12-26)
+
+
+### Features
+
+* **actions:** use 'my-setup-java-version' action. ([648b654](https://github.com/Daniele-Tentoni/gradle-wrapper-example/commit/648b6542569aad0760dcdd0f4b31b3bc07b8f0a7))
+
 # 1.0.0 (2021-12-22)
 
 
